@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script>
+        $(function() {
+            $("#btn").click(function() {
+                $("#content").html("<h3>Welcome to jQuery World....</h3>");
+            });
+            $("p").hover(function() {
+                $(this).css("background-color", "yellow");
+
+            });
+
+            $("p").mouseleave(function() {
+                $(this).css("background-color", "white");
+            });
+            font_size = 14;
+            $("#plus").click(function() {
+                $("p").css("font-size", font_size++);
+            });
+
+            $("#minus").click(function() {
+                $("p").css("font-size", font_size--);
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <a href="onoff.html">On/Off</a><br>
+    <a href="regform.html">RegForm</a><br>
+     <button id="plus">+</button>
+    <button id="minus">-</button>
+    <hr>
+    <button id="btn">click!</button>
+    <div id="content"></div>
+
+    <p>
+        He unaffected sympathize discovered at no am conviction principles. Girl ham very how yet hill four show. Meet lain on he only size. Branched learning so subjects mistress do appetite jennings be in. Esteems up lasting no village morning do offices. Settled wishing ability musical may another set age. Diminution my apartments he attachment is entreaties announcing estimating. And total least her two whose great has which. Neat pain form eat sent sex good week. Led instrument sentiments she simplicity.
+    </p>
+    <p>
+        He unaffected sympathize discovered at no am conviction principles. Girl ham very how yet hill four show. Meet lain on he only size. Branched learning so subjects mistress do appetite jennings be in. Esteems up lasting no village morning do offices. Settled wishing ability musical may another set age. Diminution my apartments he attachment is entreaties announcing estimating. And total least her two whose great has which. Neat pain form eat sent sex good week. Led instrument sentiments she simplicity.
+    </p>
+    <p>
+        He unaffected sympathize discovered at no am conviction principles. Girl ham very how yet hill four show. Meet lain on he only size. Branched learning so subjects mistress do appetite jennings be in. Esteems up lasting no village morning do offices. Settled wishing ability musical may another set age. Diminution my apartments he attachment is entreaties announcing estimating. And total least her two whose great has which. Neat pain form eat sent sex good week. Led instrument sentiments she simplicity.
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+label{
+    width:120px;
+    float:left;
+}
+#star{
+    color:red;
+    
+}
+label.error{
+    color:red;
+    float:none;
+    padding-left: 20px;
+    
+}
+.ipreg,#course{
+    width:250px;
+    height:20px;
+}
+.submit{
+    color:white;
+    background-color: deepskyblue;
+}
+.reset{
+    color:white;
+    background-color: red;
+}
+#btnsub{
+    color:white;
+    background-color: deepskyblue;
+}
+body{
+    background-color: cornsilk;
+}
+#dialog{
+background-color: mintcream;    
+}
